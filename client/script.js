@@ -21,3 +21,7 @@ form.addEventListener('submit',(e)=> {
 
 });
 
+document.getElementById("helloBtn").addEventListener("click", function () {
+  alert("Welcome to the Online Music College Platform!");
+});
+document.body.style.backgroundColor = "#f0f0f0";
