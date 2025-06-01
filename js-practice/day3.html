@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+</style>
+<body>
+    <button id="helloBtn">Click me</button>
+
+    <script>
+        const name = "Roger";
+        console.log("Student name:", name);
+
+        function multiply(a, b) {
+        return a * b;
+        }
+        console.log(multiply(4, 5));
+
+        const instruments = ["Guitar", "Piano", "Violin"];
+        for (let i = 0; i < instruments.length; i++) {
+        console.log(instruments[i]);
+        }
+
+        const student = {
+        name: "Leila",
+        course: "Piano",
+        lessons: 12
+        };
+        console.log(`${student.name} is learning ${student.course}`);
+
+        document.getElementById("helloBtn").addEventListener("click", function () {
+        alert("Welcome to the Online Music College Platform!");
+        document.body.style.backgroundColor = "#4caf50";
+        });
+
+    </script>
+</body>
+</html>

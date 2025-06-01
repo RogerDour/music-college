@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 – Quote Fetcher</title>
+    <style>
+        body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #quoteBox {
+      background: white;
+      padding: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      max-width: 600px;
+      text-align: center;
+    }
+    #loadQuoteBtn {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+    </style>
+</head>
+<body>
+    <div id="quoteBox">
+    <p id="quoteText">Loading quote...</p>
+    <button id="loadQuoteBtn">Load New Quote</button>
+    </div>
+
+
+  <script>
+  const quoteText = document.getElementById("quoteText");
+  const loadBtn = document.getElementById("loadQuoteBtn");
+
+  const proxyUrl = "https://api.allorigins.win/get?url=";
+  const targetUrl = "https://zenquotes.io/api/quotes";
+
+  async function fetchQuote() {
+    try {
+      const res = await fetch(proxyUrl + encodeURIComponent(targetUrl));
+      const result = await res.json();
+      const data = JSON.parse(result.contents);
+
+      // 👇 NOW it's safe to use data.length
+      const randomIndex = Math.floor(Math.random() * data.length);
+      const quote = data[randomIndex]["q"];
+      const author = data[randomIndex]["a"];
+
+      quoteText.innerText = `"${quote}" — ${author}`;
+    } catch (err) {
+      quoteText.innerText = "Failed to load quote.";
+      console.error(err);
+    }
+  }
+
+  loadBtn.addEventListener("click", fetchQuote);
+  window.addEventListener("DOMContentLoaded", fetchQuote);
+</script>
+
+
+</body>
+</html>
