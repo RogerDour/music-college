@@ -308,3 +308,30 @@ React feels more structured than plain JavaScript. Building UI as components mak
 ### 📸 Screenshot
 
 ![Day 9 Screenshot](./screenshots/day9-material-ui-i18n.png)
+
+---
+
+## 📅 Day 10 – Project Frontend Layout
+
+### ✅ What I Did
+
+- Planned and implemented a modular layout system using React and Material UI
+- Created three reusable components: Header, Sidebar, and Layout
+- Used Material UI’s Grid system to structure a responsive dashboard layout
+- Made the sidebar dynamic based on user roles: student, teacher, and admin
+- Wrapped the Dashboard page with the new Layout component
+
+### 💻 Code Features
+
+- Header.jsx: Top bar with app name (and space for future language toggle or user menu)
+- Sidebar.jsx: Navigation menu that adjusts links based on the role prop
+- Layout.jsx: Wrapper that includes Header, Sidebar, and main content area
+- Responsive grid: sidebar and content adapt on small (xs) and medium (md) screens
+- Clean separation of layout logic using components/ directory
+
+### 📚 What I Learned
+
+- How to architect reusable layout components in React
+- How to use Material UI's Grid for responsive design
+- How to dynamically render navigation based on user roles
+- Importance of separating layout from page content for maintainability
