@@ -335,3 +335,30 @@ React feels more structured than plain JavaScript. Building UI as components mak
 - How to use Material UI's Grid for responsive design
 - How to dynamically render navigation based on user roles
 - Importance of separating layout from page content for maintainability
+
+---
+
+## 📅 Day 11 – API Integration Prep with Axios
+
+### ✅ What I Did
+
+- Installed and configured Axios for handling API requests in the frontend
+- Created a reusable Axios instance with a base URL (https://jsonplaceholder.typicode.com)
+- Built a new page Users.jsx to fetch mock user data using axios.get("/users")
+- Managed different request states: loading, success, and error
+- Wrapped the users list inside the existing Layout component with the admin role
+
+### 💻 Code Features
+
+- Axios instance created in utils/axios.js for centralized config
+- useEffect used to trigger API request on page load
+- useState used for managing users, loading, and error
+- Displayed a list of users with proper conditional rendering
+- Clear loading and error messages shown based on request state
+
+### 📚 What I Learned
+
+- How to use Axios for HTTP requests in React
+- How to handle asynchronous data with useEffect
+- Best practices for managing loading and error states
+- How to use mock APIs (JSONPlaceholder) for testing frontend logic before connecting to a real backend
