@@ -250,3 +250,35 @@ React feels more structured than plain JavaScript. Building UI as components mak
 ### 📸 Screenshot
 
 ![Day 7 Screenshot](./screenshots/day7-routing-navigation.png)
+
+---
+
+## 📅 Day 8 – Forms & State Management
+
+### ✅ What I Did
+
+- Built working `Signup` and `Login` forms using React
+- Used `useState` to manage multiple input fields
+- Handled form submissions with `onSubmit`
+- Added basic validation for empty fields
+- Styled the forms using global CSS for a clean layout
+
+### 💻 Code Features
+
+- Controlled inputs using `value` and `onChange`
+- Shared `handleChange` for multiple fields via `name` attributes
+- Reusable `.form` class in `index.css` for styling
+- Simple form reset after submit
+
+### 📚 What I Learned
+
+- How to use `useState` to manage form state in React
+- The concept of controlled components
+- Event handling and basic input validation
+- Importance of global CSS classes for consistency
+
+### 📸 Screenshot
+
+![Day 8 Screenshot](./screenshots/day8-forms.png)
+
+---
