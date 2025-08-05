@@ -99,7 +99,7 @@ This is a simple and stylish **Login Page** built using **HTML** and **CSS**. It
 
 ### 📸 Screenshot
 
-![Login Screenshot](screenshotday2.png)
+![Login Screenshot](./screenshots/screenshotday2.png)
 
 ---
 
@@ -188,3 +188,123 @@ This is a simple and stylish **Login Page** built using **HTML** and **CSS**. It
   <link rel="stylesheet" href="style.css" />
   <script src="script.js"></script>
   ```
+
+---
+
+## 📅 Day 6 – Intro to React (Components, JSX, and useState)
+
+### ✅ What I Did
+
+- Set up a React project using Vite inside the `/client` folder
+- Removed default boilerplate and created a clean starting point
+- Created a reusable `WelcomeBanner` component that uses props
+- Used the `useState` hook to implement a basic interactive counter
+
+### 💻 Code Features
+
+- Functional components using JSX
+- Props to pass dynamic data into components
+- `useState` for local component state management
+- A simple button that increments a click counter
+
+### 📸 Screenshot
+
+![Day 6 Screenshot](./screenshots/day6-react-welcome-banner.png)
+
+### 🧠 What I Learned
+
+- JSX syntax and how it differs from HTML
+- How to build and use components in React
+- The difference between props and state
+- Basic user interaction handling in React
+
+### 🔍 Reflections
+
+React feels more structured than plain JavaScript. Building UI as components makes the code easier to understand and reuse. I'm now comfortable with props and state and ready to move into routing and multi-page structure tomorrow.
+
+---
+
+## 📅 Day 7 – Routing & Pages with React Router
+
+### ✅ What I Did
+
+- Installed and configured `react-router-dom`
+- Created 4 route-based pages: Home, Login, Signup, Dashboard
+- Built a navigation bar (`NavBar`) using `<Link>` components
+- Centralized layout and styling using `index.css`
+
+### 💻 Code Features
+
+- Client-side routing with `<Routes>` and `<Route>`
+- Fixed navigation bar using CSS
+- Page content centered with a reusable `.page` class
+- Clean file structure with `components/` and `pages/`
+
+### 📚 What I Learned
+
+- How React Router v6 handles routing without full page reloads
+- The role of `<BrowserRouter>`, `<Link>`, and `<Route>`
+- How to structure multi-page apps using component folders
+- Best practices for layout using global CSS instead of inline styles
+
+### 📸 Screenshot
+
+![Day 7 Screenshot](./screenshots/day7-routing-navigation.png)
+
+---
+
+## 📅 Day 8 – Forms & State Management
+
+### ✅ What I Did
+
+- Built working `Signup` and `Login` forms using React
+- Used `useState` to manage multiple input fields
+- Handled form submissions with `onSubmit`
+- Added basic validation for empty fields
+- Styled the forms using global CSS for a clean layout
+
+### 💻 Code Features
+
+- Controlled inputs using `value` and `onChange`
+- Shared `handleChange` for multiple fields via `name` attributes
+- Reusable `.form` class in `index.css` for styling
+- Simple form reset after submit
+
+### 📚 What I Learned
+
+- How to use `useState` to manage form state in React
+- The concept of controlled components
+- Event handling and basic input validation
+- Importance of global CSS classes for consistency
+
+### 📸 Screenshot
+
+![Day 8 Screenshot](./screenshots/day8-forms.png)
+
+---
+
+## 📅 Day 9 – Material UI + Multilingual UI (i18n)
+
+### ✅ What I Did
+
+- Installed and configured **Material UI** (`@mui/material`)
+- Converted `Signup` and `Login` forms to use MUI components (`TextField`, `Button`, etc.)
+- Added multilingual support using `react-i18next` and `i18next-browser-languagedetector`
+- Created a language toggle (English / Hebrew) in both forms
+
+### 💻 Code Features
+
+- Responsive UI with consistent spacing and fonts via Material UI
+- Controlled forms with translated labels
+- Language switching at runtime with `i18n.changeLanguage()`
+- Centralized translation strings in `i18n.js`
+
+### 📚 What I Learned
+
+- How to use Material UI’s `Container`, `Typography`, and `TextField` for layout and accessibility
+- How to set up `i18next` for dynamic language translation
+- How to combine internationalization and design libraries in React
+
+### 📸 Screenshot
+
+![Day 9 Screenshot](./screenshots/day9-material-ui-i18n.png)
