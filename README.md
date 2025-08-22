@@ -362,3 +362,5 @@ React feels more structured than plain JavaScript. Building UI as components mak
 - How to handle asynchronous data with useEffect
 - Best practices for managing loading and error states
 - How to use mock APIs (JSONPlaceholder) for testing frontend logic before connecting to a real backend
+
+---

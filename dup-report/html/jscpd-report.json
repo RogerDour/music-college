@@ -1,0 +1,1902 @@
+{
+  "statistics": {
+    "detectionDate": "2025-08-18T19:56:59.975Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "server/services/reminders.js": {
+            "lines": 53,
+            "tokens": 780,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/services/notify.js": {
+            "lines": 32,
+            "tokens": 217,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/services/mail.js": {
+            "lines": 59,
+            "tokens": 510,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/services/alerts.js": {
+            "lines": 31,
+            "tokens": 620,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/utils/scheduling.js": {
+            "lines": 505,
+            "tokens": 4831,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/SchedulingLog.js": {
+            "lines": 31,
+            "tokens": 316,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/Performance.js": {
+            "lines": 24,
+            "tokens": 394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/Message.js": {
+            "lines": 18,
+            "tokens": 202,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/Material.js": {
+            "lines": 27,
+            "tokens": 305,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/Lesson.js": {
+            "lines": 20,
+            "tokens": 356,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/Holiday.js": {
+            "lines": 20,
+            "tokens": 231,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/Course.js": {
+            "lines": 20,
+            "tokens": 245,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/models/Availability.js": {
+            "lines": 43,
+            "tokens": 476,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/users.js": {
+            "lines": 215,
+            "tokens": 2978,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/upload.js": {
+            "lines": 55,
+            "tokens": 774,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/tasks.js": {
+            "lines": 66,
+            "tokens": 999,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/students.js": {
+            "lines": 52,
+            "tokens": 858,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/settings.js": {
+            "lines": 20,
+            "tokens": 400,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/requests.js": {
+            "lines": 214,
+            "tokens": 2649,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/reports_custom.js": {
+            "lines": 23,
+            "tokens": 370,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/reports.js": {
+            "lines": 95,
+            "tokens": 1231,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/profile.js": {
+            "lines": 52,
+            "tokens": 616,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/oauth.js": {
+            "lines": 185,
+            "tokens": 2416,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/notifications.js": {
+            "lines": 24,
+            "tokens": 274,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/messages.js": {
+            "lines": 100,
+            "tokens": 1130,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/materials.js": {
+            "lines": 289,
+            "tokens": 2751,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/lesson.js": {
+            "lines": 478,
+            "tokens": 4354,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/feedback.js": {
+            "lines": 283,
+            "tokens": 3125,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/enrollments.js": {
+            "lines": 168,
+            "tokens": 2086,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/course.js": {
+            "lines": 133,
+            "tokens": 1689,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/calendar.js": {
+            "lines": 83,
+            "tokens": 971,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/availability.js": {
+            "lines": 221,
+            "tokens": 2517,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/auth.js": {
+            "lines": 206,
+            "tokens": 2182,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/announcements.js": {
+            "lines": 28,
+            "tokens": 437,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/analytics.js": {
+            "lines": 334,
+            "tokens": 4723,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/routes/alertsAnalytics.js": {
+            "lines": 104,
+            "tokens": 1813,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/utils/i18n.js": {
+            "lines": 49,
+            "tokens": 356,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/UsersList.jsx": {
+            "lines": 229,
+            "tokens": 2379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/UploadMaterial.jsx": {
+            "lines": 10,
+            "tokens": 333,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Tasks.jsx": {
+            "lines": 190,
+            "tokens": 1523,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/SuggestLesson.jsx": {
+            "lines": 226,
+            "tokens": 2707,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Students.jsx": {
+            "lines": 13,
+            "tokens": 307,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Signup.jsx": {
+            "lines": 56,
+            "tokens": 662,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/ResetPassword.jsx": {
+            "lines": 29,
+            "tokens": 356,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Reports.jsx": {
+            "lines": 60,
+            "tokens": 1985,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 56,
+            "duplicatedTokens": 752,
+            "percentage": 93.33,
+            "percentageTokens": 37.88,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Profile.jsx": {
+            "lines": 41,
+            "tokens": 460,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Notifications.jsx": {
+            "lines": 75,
+            "tokens": 836,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/MyLessons.jsx": {
+            "lines": 283,
+            "tokens": 4064,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 397,
+            "duplicatedTokens": 4348,
+            "percentage": 140.28,
+            "percentageTokens": 106.99,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/MyCourses.jsx": {
+            "lines": 30,
+            "tokens": 379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/MaterialsList.jsx": {
+            "lines": 17,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/ManageLessons.jsx": {
+            "lines": 713,
+            "tokens": 7418,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 397,
+            "duplicatedTokens": 4348,
+            "percentage": 55.68,
+            "percentageTokens": 58.61,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Login.jsx": {
+            "lines": 70,
+            "tokens": 804,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Home.jsx": {
+            "lines": 155,
+            "tokens": 1508,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 68,
+            "duplicatedTokens": 564,
+            "percentage": 43.87,
+            "percentageTokens": 37.4,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Holidays.jsx": {
+            "lines": 104,
+            "tokens": 1074,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/ForgotPassword.jsx": {
+            "lines": 38,
+            "tokens": 338,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Dashboard.jsx": {
+            "lines": 79,
+            "tokens": 911,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Courses.jsx": {
+            "lines": 398,
+            "tokens": 3993,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/CourseMaterials.jsx": {
+            "lines": 108,
+            "tokens": 1393,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/CourseChat.jsx": {
+            "lines": 82,
+            "tokens": 678,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Chat.jsx": {
+            "lines": 201,
+            "tokens": 2729,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Calendar.jsx": {
+            "lines": 91,
+            "tokens": 1110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Bulletin.jsx": {
+            "lines": 6,
+            "tokens": 159,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Availability.jsx": {
+            "lines": 119,
+            "tokens": 1331,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Analytics.jsx": {
+            "lines": 300,
+            "tokens": 3962,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 172,
+            "duplicatedTokens": 2298,
+            "percentage": 57.33,
+            "percentageTokens": 58,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/AdminSettings.jsx": {
+            "lines": 47,
+            "tokens": 608,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/AdminAnnouncement.jsx": {
+            "lines": 10,
+            "tokens": 274,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/TeacherRatingSmall.jsx": {
+            "lines": 38,
+            "tokens": 498,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/Sidebar.jsx": {
+            "lines": 20,
+            "tokens": 156,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/RecurringLessonDialog.jsx": {
+            "lines": 156,
+            "tokens": 1509,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/Header.jsx": {
+            "lines": 194,
+            "tokens": 1594,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/users.js": {
+            "lines": 46,
+            "tokens": 523,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/tasks.js": {
+            "lines": 37,
+            "tokens": 409,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/profile.js": {
+            "lines": 22,
+            "tokens": 238,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/materials.js": {
+            "lines": 70,
+            "tokens": 798,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/lessons.js": {
+            "lines": 36,
+            "tokens": 522,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/feedback.js": {
+            "lines": 68,
+            "tokens": 697,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/enrollments.js": {
+            "lines": 51,
+            "tokens": 712,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/courses.js": {
+            "lines": 28,
+            "tokens": 416,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/calendar.js": {
+            "lines": 25,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/availability.js": {
+            "lines": 34,
+            "tokens": 393,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/analytics.js": {
+            "lines": 18,
+            "tokens": 231,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/api/alerts.js": {
+            "lines": 19,
+            "tokens": 268,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/socket.js": {
+            "lines": 19,
+            "tokens": 218,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/main.jsx": {
+            "lines": 1,
+            "tokens": 18,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/App.jsx": {
+            "lines": 149,
+            "tokens": 1501,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 9171,
+          "tokens": 106752,
+          "sources": 85,
+          "clones": 7,
+          "duplicatedLines": 545,
+          "duplicatedTokens": 6155,
+          "percentage": 5.94,
+          "percentageTokens": 5.77,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "jsx": {
+        "sources": {
+          "client/src/pages/UsersList.jsx": {
+            "lines": 387,
+            "tokens": 4546,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/UploadMaterial.jsx": {
+            "lines": 48,
+            "tokens": 801,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/TestAPI.jsx": {
+            "lines": 20,
+            "tokens": 200,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Tasks.jsx": {
+            "lines": 329,
+            "tokens": 2803,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/SuggestLesson.jsx": {
+            "lines": 387,
+            "tokens": 4348,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Students.jsx": {
+            "lines": 48,
+            "tokens": 768,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Signup.jsx": {
+            "lines": 120,
+            "tokens": 1347,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/ResetPassword.jsx": {
+            "lines": 88,
+            "tokens": 1096,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Reports.jsx": {
+            "lines": 115,
+            "tokens": 2735,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Profile.jsx": {
+            "lines": 130,
+            "tokens": 1373,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/OAuthLanding.jsx": {
+            "lines": 34,
+            "tokens": 371,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Notifications.jsx": {
+            "lines": 174,
+            "tokens": 1901,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/MyLessons.jsx": {
+            "lines": 330,
+            "tokens": 4540,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 86,
+            "duplicatedTokens": 750,
+            "percentage": 26.06,
+            "percentageTokens": 16.52,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/MyCourses.jsx": {
+            "lines": 54,
+            "tokens": 621,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/MaterialsList.jsx": {
+            "lines": 48,
+            "tokens": 606,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/ManageLessons.jsx": {
+            "lines": 872,
+            "tokens": 8641,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 86,
+            "duplicatedTokens": 750,
+            "percentage": 9.86,
+            "percentageTokens": 8.68,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Login.jsx": {
+            "lines": 149,
+            "tokens": 1679,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Home.jsx": {
+            "lines": 204,
+            "tokens": 2030,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Holidays.jsx": {
+            "lines": 214,
+            "tokens": 2219,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/ForgotPassword.jsx": {
+            "lines": 120,
+            "tokens": 1042,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Dashboard.jsx": {
+            "lines": 208,
+            "tokens": 2188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Courses.jsx": {
+            "lines": 764,
+            "tokens": 7972,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/CourseMaterials.jsx": {
+            "lines": 309,
+            "tokens": 3348,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/CourseChat.jsx": {
+            "lines": 164,
+            "tokens": 1552,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Chat.jsx": {
+            "lines": 319,
+            "tokens": 4221,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Calendar.jsx": {
+            "lines": 202,
+            "tokens": 2464,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Bulletin.jsx": {
+            "lines": 24,
+            "tokens": 377,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Availability.jsx": {
+            "lines": 311,
+            "tokens": 3736,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/Analytics.jsx": {
+            "lines": 508,
+            "tokens": 6518,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/AdminSettings.jsx": {
+            "lines": 105,
+            "tokens": 1347,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/pages/AdminAnnouncement.jsx": {
+            "lines": 29,
+            "tokens": 535,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/TeacherRatingSmall.jsx": {
+            "lines": 87,
+            "tokens": 1087,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/Sidebar.jsx": {
+            "lines": 148,
+            "tokens": 1269,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/RecurringLessonDialog.jsx": {
+            "lines": 313,
+            "tokens": 3700,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/ProtectedRoute.jsx": {
+            "lines": 18,
+            "tokens": 186,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/Layout.jsx": {
+            "lines": 23,
+            "tokens": 233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/components/Header.jsx": {
+            "lines": 315,
+            "tokens": 2611,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/main.jsx": {
+            "lines": 49,
+            "tokens": 440,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "client/src/App.jsx": {
+            "lines": 222,
+            "tokens": 1964,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 7989,
+          "tokens": 89415,
+          "sources": 39,
+          "clones": 3,
+          "duplicatedLines": 86,
+          "duplicatedTokens": 750,
+          "percentage": 1.08,
+          "percentageTokens": 0.84,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 17160,
+      "tokens": 196167,
+      "sources": 124,
+      "clones": 10,
+      "duplicatedLines": 631,
+      "duplicatedTokens": 6905,
+      "percentage": 3.68,
+      "percentageTokens": 3.52,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "javascript",
+      "lines": 302,
+      "fragment": "={{ height: \"100%\" }}>\r\n      <CardContent>\r\n        <Typography variant=\"subtitle1\" sx={{ fontWeight: 600 }}>\r\n          {lesson.title}\r\n        </Typography>\r\n        <Typography variant=\"body2\" sx={{ mt: 0.5 }}>\r\n          {start.toLocaleString()} — {end.toLocaleString()} ({dur}m)\r\n        </Typography>\r\n\r\n        <Divider sx={{ my: 1.5 }} />\r\n\r\n        <Typography variant=\"body2\">\r\n          <strong>Teacher:</strong>{\" \"}\r\n          {lesson.teacherId?.name || lesson.teacherId?.email || \"—\"}\r\n        </Typography>\r\n        <Typography variant=\"body2\">\r\n          <strong>Student:</strong>{\" \"}\r\n          {lesson.studentId?.name || lesson.studentId?.email || \"—\"}\r\n        </Typography>\r\n        <Typography variant=\"body2\" sx={{ mt: 0.5 }}>\r\n          <strong>Status:</strong> {lesson.status}\r\n        </Typography>\r\n\r\n        {lesson.attended && (\r\n          <Chip label=\"Attended\" size=\"small\" color=\"success\" sx={{ mt: 1 }} />\r\n        )}\r\n      </CardContent>\r\n\r\n      <CardActions sx={{ px: 2, pb: 2 }}>\r\n        <Tooltip title={isPast ? \"Past lessons can’t be edited\" : \"\"} disableHoverListener={!isPast}>\r\n          <span>\r\n            <Button size=\"small\" variant=\"outlined\" onClick={() => onEdit(lesson)} disabled={isPast}>\r\n              Edit\r\n            </Button>\r\n          </span>\r\n        </Tooltip>\r\n\r\n        <Tooltip title={isPast ? \"Past lessons can’t be edited\" : \"\"} disableHoverListener={!isPast}>\r\n          <span>\r\n            <Button size=\"small\" onClick={() => onToggleComplete(lesson)} disabled={isPast}>\r\n              {lesson.status === \"completed\" ? \"Mark Scheduled\" : \"Mark Completed\"}\r\n            </Button>\r\n          </span>\r\n        </Tooltip>\r\n\r\n        <Button size=\"small\" variant=\"outlined\" onClick={() => onToggleAttended(lesson)}>\r\n          {lesson.attended ? \"Unmark Attended\" : \"Mark Attended\"}\r\n        </Button>\r\n\r\n        <Tooltip title={isPast ? \"Past lessons can’t be deleted\" : \"\"} disableHoverListener={!isPast}>\r\n          <span>\r\n            <Button size=\"small\" color=\"error\" onClick={() => onDelete(lesson._id)} disabled={isPast}>\r\n              Delete\r\n            </Button>\r\n          </span>\r\n        </Tooltip>\r\n      </CardActions>\r\n    </Card>\r\n  );\r\n}\r\n\r\n/* =============================================================================\r\n   Page: ManageLessons\r\n============================================================================= */\r\nexport default function ManageLessons() {\r\n  // ---------------------------------------------------------------------------\r\n  // Auth context (used for role gating + passing default teacherId)\r\n  // ---------------------------------------------------------------------------\r\n  const role = (localStorage.getItem(\"role\") || \"\").toLowerCase();\r\n  const currentUserId = localStorage.getItem(\"userId\") || \"\"; // optional; pass to Recurring dialog\r\n\r\n  // ---------------------------------------------------------------------------\r\n  // Data & UI state\r\n  // ---------------------------------------------------------------------------\r\n  const [allLessons, setAllLessons] = useState([]);\r\n  const [loading, setLoading] = useState(false);\r\n\r\n  // Filters\r\n  const [onlyMine, setOnlyMine] = useState(false);\r\n  const [statusFilter, setStatusFilter] = useState(\"all\");\r\n  const [q, setQ] = useState(\"\");\r\n\r\n  // Snackbar notifications\r\n  const [snack, setSnack] = useState({ open: false, msg: \"\", sev: \"info\" });\r\n  const notify = (msg, sev = \"info\") => setSnack({ open: true, msg, sev });\r\n\r\n  // NEW: Recurring dialog visibility\r\n  const [openRecurring, setOpenRecurring] = useState(false);\r\n\r\n  // Helpers\r\n  const sortByStart = (arr) =>\r\n    [...arr].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());\r\n\r\n  // Fetch lessons\r\n  const loadLessons = async (mine = onlyMine) => {\r\n    setLoading(true);\r\n    try {\r\n      const res = mine ? await getMyLessons() : await getLessons();\r\n      const data = mine ? res.data?.lessons || [] : res.data || [];\r\n      setAllLessons(sortByStart(data));\r\n    } catch (e) {\r\n      notify(\"Failed to load lessons.\", \"error\");\r\n      console.error(e);\r\n    } finally {\r\n      setLoading(false);\r\n    }\r\n  };\r\n\r\n  useEffect(() => {\r\n    loadLessons();\r\n    // eslint-disable-next-line react-hooks/exhaustive-deps\r\n  }, [onlyMine]);\r\n\r\n  // Client-side filter: status + quick search\r\n  const lessons = useMemo(() => {\r\n    let list = allLessons;\r\n    if (statusFilter !== \"all\") list = list.filter((l) => l.status === statusFilter);\r\n    if (q.trim()) {\r\n      const needle = q.toLowerCase();\r\n      list = list.filter((l) => {\r\n        const teacher = l.teacherId?.name || l.teacherId?.email || \"\";\r\n        const student = l.studentId?.name || l.studentId?.email || \"\";\r\n        return (\r\n          (l.title || \"\").toLowerCase().includes(needle) ||\r\n          teacher.toLowerCase().includes(needle) ||\r\n          student.toLowerCase().includes(needle)\r\n        );\r\n      });\r\n    }\r\n    return list;\r\n  }, [allLessons, statusFilter, q]);\r\n\r\n  // Create/Edit state\r\n  const [form, setForm] = useState({\r\n    title: \"\",\r\n    date: toLocalDatetimeInputValue(),\r\n    duration: 60,\r\n    status: \"scheduled\",\r\n    studentId: \"\",\r\n  });\r\n  const [editingId, setEditingId] = useState(null);\r\n\r\n  const handleChange = (e) => {\r\n    const { name, value } = e.target;\r\n    setForm((f) => ({ ...f, [name]: value }));\r\n  };\r\n\r\n  const resetForm = () =>\r\n    setForm((f) => ({\r\n      ...f,\r\n      title: \"\",\r\n      date: toLocalDatetimeInputValue(),\r\n      duration: 60,\r\n      status: \"scheduled\",\r\n      studentId: \"\",\r\n    }));\r\n\r\n  // Create single lesson\r\n  const handleCreate = async (e) => {\r\n    e.preventDefault();\r\n    const payload = {\r\n      title: form.title,\r\n      date: form.date,\r\n      duration: Number(form.duration),\r\n      status: form.status,\r\n      studentId: form.studentId || undefined,\r\n    };\r\n    try {\r\n      const res = await createLesson(payload);\r\n      setAllLessons((prev) => sortByStart([...prev, res.data]));\r\n      resetForm();\r\n      notify(\"Lesson created ✔️\", \"success\");\r\n    } catch (err) {\r\n      const msg =\r\n        err.response?.status === 409\r\n          ? err.response?.data?.message || \"Overlapping booking.\"\r\n          : err.response?.data?.message ||\r\n            err.response?.data?.error ||\r\n            \"Failed to create lesson.\";\r\n      notify(msg, \"error\");\r\n      console.error(err);\r\n    }\r\n  };\r\n\r\n  // Delete lesson\r\n  const handleDelete = async (id) => {\r\n    try {\r\n      await deleteLesson(id);\r\n      setAllLessons((prev) => prev.filter((l) => l._id !== id));\r\n      notify(\"Lesson deleted\", \"success\");\r\n    } catch (err) {\r\n      notify(\"Failed to delete lesson.\", \"error\");\r\n      console.error(err);\r\n    }\r\n  };\r\n\r\n  // Toggle completed status (completed <-> scheduled)\r\n  const toggleComplete = async (lesson) => {\r\n    const newStatus = lesson.status === \"completed\" ? \"scheduled\" : \"completed\";\r\n    const payload = { status: newStatus };\r\n    if (newStatus === \"completed\") payload.attended = true;\r\n\r\n    try {\r\n      const res = await updateLesson(lesson._id, payload);\r\n      setAllLessons((prev) => prev.map((l) => (l._id === lesson._id ? res.data : l)));\r\n      notify(\"Lesson updated\", \"success\");\r\n    } catch (err) {\r\n      notify(\"Failed to update lesson.\", \"error\");\r\n      console.error(err);\r\n    }\r\n  };\r\n\r\n  // Toggle attended flag\r\n  const toggleAttended = async (lesson) => {\r\n    try {\r\n      const res = await updateLesson(lesson._id, { attended: !lesson.attended });\r\n      setAllLessons((prev) => prev.map((l) => (l._id === lesson._id ? res.data : l)));\r\n      notify(`Attendance ${!lesson.attended ? \"marked\" : \"cleared\"}`, \"success\");\r\n    } catch (err) {\r\n      notify(\"Failed to update attendance.\", \"error\");\r\n      console.error(err);\r\n    }\r\n  };\r\n\r\n  // Start editing\r\n  const toEdit = (lesson) => {\r\n    setEditingId(lesson._id);\r\n    setForm({\r\n      title: lesson.title || \"\",\r\n      date: toLocalDatetimeInputValue(new Date(lesson.date)),\r\n      duration: lesson.duration || 60,\r\n      status: lesson.status || \"scheduled\",\r\n      studentId: lesson.studentId?._id || lesson.studentId || \"\",\r\n    });\r\n    window.scrollTo({ top: 0, behavior: \"smooth\" });\r\n  };\r\n\r\n  // Save edits\r\n  const saveEdit = async (e) => {\r\n    e.preventDefault();\r\n    try {\r\n      const res = await updateLesson(editingId, {\r\n        title: form.title,\r\n        date: form.date,\r\n        duration: Number(form.duration),\r\n        status: form.status,\r\n        studentId: form.studentId || undefined,\r\n      });\r\n      setAllLessons((prev) => prev.map((l) => (l._id === editingId ? res.data : l)));\r\n      setEditingId(null);\r\n      resetForm();\r\n      notify(\"Lesson saved ✔️\", \"success\");\r\n    } catch (err) {\r\n      const msg =\r\n        err.response?.status === 409\r\n          ? err.response?.data?.message || \"Overlapping booking.\"\r\n          : err.response?.data?.message ||\r\n            err.response?.data?.error ||\r\n            \"Failed to save lesson.\";\r\n      notify(msg, \"error\");\r\n      console.error(err);\r\n    }\r\n  };\r\n\r\n  // When recurring create finishes\r\n  const handleRecurringCreated = (result) => {\r\n    // Expect result like: { created: [...], skipped: [...] }\r\n    const created = Array.isArray(result?.created) ? result.created : [];\r\n    const skipped = Array.isArray(result?.skipped) ? result.skipped : [];\r\n    if (created.length) {\r\n      setAllLessons((prev) => sortByStart([...prev, ...created]));\r\n    }\r\n    notify(\r\n      `Created ${created.length} lessons${skipped.length ? `, skipped ${skipped.length}` : \"\"}.`,\r\n      \"success\"\r\n    );\r\n    // If your server returns partial shapes, you can call loadLessons() instead:\r\n    // loadLessons();\r\n  };\r\n\r\n  // ---------------------------------------------------------------------------\r\n  // Render\r\n  // ---------------------------------------------------------------------------\r\n  return (\r\n    <Box>\r\n      {/* Page title + quick actions */}\r\n      <Stack direction=\"row\" alignItems=\"center\" justifyContent=\"space-between\" sx={{ mb: 1 }}>\r\n        <Typography variant=\"h5\">Manage Lessons</Typography>\r\n        {(role === \"teacher\" || role === \"admin\") && (\r\n          <Button variant=\"contained\" onClick={() => setOpenRecurring(true)}>\r\n            Add Recurring\r\n          </Button>\r\n        )}\r\n      </Stack>\r\n\r\n      {/* Filters */}\r\n      <Paper sx={{ p: 2, mb: 3 }}>\r\n        <Grid container spacing={2} alignItems=\"center\">\r\n          <Grid item>\r\n            <FormControlLabel\r\n              control={\r\n                ",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\ManageLessons.jsx",
+        "start": 371,
+        "end": 672,
+        "startLoc": {
+          "line": 371,
+          "column": 3,
+          "position": 3435
+        },
+        "endLoc": {
+          "line": 672,
+          "column": 17,
+          "position": 6937
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\MyLessons.jsx",
+        "start": 42,
+        "end": 259,
+        "startLoc": {
+          "line": 42,
+          "column": 3,
+          "position": 441
+        },
+        "endLoc": {
+          "line": 259,
+          "column": 2,
+          "position": 3689
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 47,
+      "fragment": "}\r\n              label=\"Only my lessons\"\r\n            />\r\n          </Grid>\r\n\r\n          <Grid item>\r\n            <FormControl size=\"small\" sx={{ minWidth: 180 }}>\r\n              <InputLabel id=\"status-label\">Status</InputLabel>\r\n              <Select\r\n                labelId=\"status-label\"\r\n                label=\"Status\"\r\n                value={statusFilter}\r\n                onChange={(e) => setStatusFilter(e.target.value)}\r\n              >\r\n                <MenuItem value=\"all\">All</MenuItem>\r\n                <MenuItem value=\"scheduled\">Scheduled</MenuItem>\r\n                <MenuItem value=\"completed\">Completed</MenuItem>\r\n                <MenuItem value=\"cancelled\">Cancelled</MenuItem>\r\n              </Select>\r\n            </FormControl>\r\n          </Grid>\r\n\r\n          <Grid item sx={{ flexGrow: 1 }} xs={12} md=\"auto\">\r\n            <TextField\r\n              size=\"small\"\r\n              label=\"Search (title / teacher / student)\"\r\n              value={q}\r\n              onChange={(e) => setQ(e.target.value)}\r\n              fullWidth\r\n            />\r\n          </Grid>\r\n\r\n          <Grid item>\r\n            <Button variant=\"outlined\" onClick={() => loadLessons()}>\r\n              Refresh\r\n            </Button>\r\n          </Grid>\r\n        </Grid>\r\n\r\n        <Typography variant=\"body2\" sx={{ mt: 1, opacity: 0.7 }}>\r\n          Showing {lessons.length} of {allLessons.length}\r\n        </Typography>\r\n      </Paper>\r\n\r\n      {/* Pending Requests (teacher/admin) */}\r\n      <PendingRequests\r\n        notify={notify",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\ManageLessons.jsx",
+        "start": 676,
+        "end": 722,
+        "startLoc": {
+          "line": 676,
+          "column": 15,
+          "position": 6968
+        },
+        "endLoc": {
+          "line": 722,
+          "column": 7,
+          "position": 7380
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\MyLessons.jsx",
+        "start": 259,
+        "end": 292,
+        "startLoc": {
+          "line": 259,
+          "column": 3,
+          "position": 3718
+        },
+        "endLoc": {
+          "line": 292,
+          "column": 2,
+          "position": 4158
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 51,
+      "fragment": "}}\r\n              >\r\n                Cancel\r\n              </Button>\r\n            )}\r\n          </Stack>\r\n        </Box>\r\n      </Paper>\r\n\r\n      {/* Lessons list */}\r\n      {loading ? (\r\n        <Stack direction=\"row\" alignItems=\"center\" spacing={1}>\r\n          <CircularProgress size={20} />\r\n          <Typography variant=\"body2\">Loading…</Typography>\r\n        </Stack>\r\n      ) : (\r\n        <Grid container spacing={2}>\r\n          {lessons.map((lesson) => (\r\n            <Grid item xs={12} md={6} key={lesson._id}>\r\n              <LessonCard\r\n                lesson={lesson}\r\n                onEdit={toEdit}\r\n                onToggleComplete={toggleComplete}\r\n                onToggleAttended={toggleAttended}\r\n                onDelete={handleDelete}\r\n              />\r\n            </Grid>\r\n          ))}\r\n        </Grid>\r\n      )}\r\n\r\n      {/* NEW: Recurring dialog */}\r\n      <RecurringLessonDialog\r\n        open={openRecurring}\r\n        onClose={() => setOpenRecurring(false)}\r\n        onCreated={handleRecurringCreated}\r\n        defaultTeacherId={role === \"teacher\" ? currentUserId : \"\"}\r\n      />\r\n\r\n      {/* Snackbar */}\r\n      <Snackbar\r\n        open={snack.open}\r\n        autoHideDuration={3000}\r\n        onClose={() => setSnack((s) => ({ ...s, open: false }))}\r\n        anchorOrigin={{ vertical: \"bottom\", horizontal: \"center\" }}\r\n      >\r\n        <Alert\r\n          onClose={() => setSnack((s) => ({ ...s, open: false }))}\r\n          severity={snack.sev}\r\n          variant=\"filled\"\r\n          sx={{ width: \"100%\" }}",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\ManageLessons.jsx",
+        "start": 816,
+        "end": 866,
+        "startLoc": {
+          "line": 816,
+          "column": 17,
+          "position": 8171
+        },
+        "endLoc": {
+          "line": 866,
+          "column": 2,
+          "position": 8605
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\MyLessons.jsx",
+        "start": 279,
+        "end": 325,
+        "startLoc": {
+          "line": 279,
+          "column": 2,
+          "position": 4059
+        },
+        "endLoc": {
+          "line": 325,
+          "column": 2,
+          "position": 4505
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 27,
+      "fragment": "import { useEffect, useMemo, useState } from \"react\";\r\nimport {\r\n  Paper,\r\n  Stack,\r\n  Typography,\r\n  TextField,\r\n  Button,\r\n  Divider,\r\n  Chip,\r\n  Snackbar,\r\n  Alert,\r\n  Tooltip,\r\n  FormControlLabel,\r\n  Checkbox,\r\n  MenuItem,\r\n  Select,\r\n  InputLabel,\r\n  FormControl,\r\n  Box,\r\n  Grid,\r\n  Card,\r\n  CardContent,\r\n  CardActions,\r\n  CircularProgress,\r\n} from \"@mui/material\";\r\n\r\n// Lessons API",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\ManageLessons.jsx",
+        "start": 11,
+        "end": 37,
+        "startLoc": {
+          "line": 11,
+          "column": 1,
+          "position": 29
+        },
+        "endLoc": {
+          "line": 37,
+          "column": 15,
+          "position": 174
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\MyLessons.jsx",
+        "start": 2,
+        "end": 9,
+        "startLoc": {
+          "line": 2,
+          "column": 1,
+          "position": 3
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 7,
+          "position": 110
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 39,
+      "fragment": "}\r\n      </CardContent>\r\n\r\n      <CardActions sx={{ px: 2, pb: 2 }}>\r\n        <Tooltip title={isPast ? \"Past lessons can’t be edited\" : \"\"} disableHoverListener={!isPast}>\r\n          <span>\r\n            <Button size=\"small\" variant=\"outlined\" onClick={() => onEdit(lesson)} disabled={isPast}>\r\n              Edit\r\n            </Button>\r\n          </span>\r\n        </Tooltip>\r\n\r\n        <Tooltip title={isPast ? \"Past lessons can’t be edited\" : \"\"} disableHoverListener={!isPast}>\r\n          <span>\r\n            <Button size=\"small\" onClick={() => onToggleComplete(lesson)} disabled={isPast}>\r\n              {lesson.status === \"completed\" ? \"Mark Scheduled\" : \"Mark Completed\"}\r\n            </Button>\r\n          </span>\r\n        </Tooltip>\r\n\r\n        <Button size=\"small\" variant=\"outlined\" onClick={() => onToggleAttended(lesson)}>\r\n          {lesson.attended ? \"Unmark Attended\" : \"Mark Attended\"}\r\n        </Button>\r\n\r\n        <Tooltip title={isPast ? \"Past lessons can’t be deleted\" : \"\"} disableHoverListener={!isPast}>\r\n          <span>\r\n            <Button size=\"small\" color=\"error\" onClick={() => onDelete(lesson._id)} disabled={isPast}>\r\n              Delete\r\n            </Button>\r\n          </span>\r\n        </Tooltip>\r\n      </CardActions>\r\n    </Card>\r\n  );\r\n}\r\n\r\n/* =============================================================================\r\n   Page: ManageLessons\r\n============================================================================= */",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\ManageLessons.jsx",
+        "start": 396,
+        "end": 434,
+        "startLoc": {
+          "line": 396,
+          "column": 2,
+          "position": 3783
+        },
+        "endLoc": {
+          "line": 434,
+          "column": 81,
+          "position": 4187
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\MyLessons.jsx",
+        "start": 52,
+        "end": 74,
+        "startLoc": {
+          "line": 52,
+          "column": 3,
+          "position": 741
+        },
+        "endLoc": {
+          "line": 74,
+          "column": 7,
+          "position": 1107
+        }
+      }
+    },
+    {
+      "format": "jsx",
+      "lines": 23,
+      "fragment": "{/* Lessons list */}\r\n      {loading ? (\r\n        <Stack direction=\"row\" alignItems=\"center\" spacing={1}>\r\n          <CircularProgress size={20} />\r\n          <Typography variant=\"body2\">Loading…</Typography>\r\n        </Stack>\r\n      ) : (\r\n        <Grid container spacing={2}>\r\n          {lessons.map((lesson) => (\r\n            <Grid item xs={12} md={6} key={lesson._id}>\r\n              <LessonCard\r\n                lesson={lesson}\r\n                onEdit={toEdit}\r\n                onToggleComplete={toggleComplete}\r\n                onToggleAttended={toggleAttended}\r\n                onDelete={handleDelete}\r\n              />\r\n            </Grid>\r\n          ))}\r\n        </Grid>\r\n      )}\r\n\r\n      {",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\ManageLessons.jsx",
+        "start": 825,
+        "end": 847,
+        "startLoc": {
+          "line": 825,
+          "column": 7,
+          "position": 8213
+        },
+        "endLoc": {
+          "line": 847,
+          "column": 2,
+          "position": 8414
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\MyLessons.jsx",
+        "start": 290,
+        "end": 312,
+        "startLoc": {
+          "line": 290,
+          "column": 7,
+          "position": 4125
+        },
+        "endLoc": {
+          "line": 312,
+          "column": 2,
+          "position": 4326
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 35,
+      "fragment": ": 2 }} />\r\n\r\n          <Stack\r\n            direction={{ xs: \"column\", sm: \"row\" }}\r\n            spacing={2}\r\n            alignItems={{ xs: \"stretch\", sm: \"center\" }}\r\n            justifyContent=\"space-between\"\r\n          >\r\n            <Box>\r\n              <Typography variant=\"subtitle1\" sx={{ fontWeight: 600 }}>\r\n                Chat & Messages\r\n              </Typography>\r\n              <Typography variant=\"body2\" color=\"text.secondary\">\r\n                Start a private chat from Users, or open course chat from a course page.\r\n              </Typography>\r\n            </Box>\r\n            <Stack direction=\"row\" spacing={1}>\r\n              <Button\r\n                component={RouterLink}\r\n                to=\"/users\"\r\n                variant=\"outlined\"\r\n                size=\"small\"\r\n              >\r\n                Browse Users\r\n              </Button>\r\n              <Button\r\n                component={RouterLink}\r\n                to=\"/courses\"\r\n                variant=\"outlined\"\r\n                size=\"small\"\r\n              >\r\n                Course Chat\r\n              </Button>\r\n              <Button\r\n                component={RouterLink",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\Home.jsx",
+        "start": 120,
+        "end": 154,
+        "startLoc": {
+          "line": 120,
+          "column": 4,
+          "position": 1255
+        },
+        "endLoc": {
+          "line": 154,
+          "column": 11,
+          "position": 1537
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\Home.jsx",
+        "start": 85,
+        "end": 120,
+        "startLoc": {
+          "line": 85,
+          "column": 3,
+          "position": 958
+        },
+        "endLoc": {
+          "line": 120,
+          "column": 2,
+          "position": 1253
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 57,
+      "fragment": "}\r\n          />\r\n          <Typography variant=\"body2\">\r\n            {item.label}:{\" \"}\r\n            <strong>\r\n              {\r\n                (() => {\r\n                  const v = lastValue(item.key);\r\n                  if (v === \"—\") return \"—\";\r\n                  try {\r\n                    return item.format(v);\r\n                  } catch {\r\n                    return v;\r\n                  }\r\n                })()\r\n              }\r\n            </strong>\r\n          </Typography>\r\n        </Stack>\r\n      ))}\r\n    </Stack>\r\n  );\r\n\r\n  // ---- CSV export ----\r\n  const toCsv = (rows) => {\r\n    const header = [\"bucket\", \"lessons\", \"approvals\", \"attendance_pct\", \"avg_rating\"];\r\n    const lines = [header.join(\",\")];\r\n    rows.forEach((r) => {\r\n      const attPct = r.attendance != null ? Math.round(r.attendance * 100) : \"\";\r\n      const rating = r.rating != null ? Number(r.rating).toFixed(1) : \"\";\r\n      lines.push([r.bucket, r.lessons ?? \"\", r.approvals ?? \"\", attPct, rating].join(\",\"));\r\n    });\r\n    return lines.join(\"\\n\");\r\n  };\r\n  const exportCsv = () => {\r\n    const csv = toCsv(rows);\r\n    const blob = new Blob([csv], { type: \"text/csv;charset=utf-8\" });\r\n    const url = URL.createObjectURL(blob);\r\n    const r = res?.range || { from, to, bucket };\r\n    const name = `analytics_${String(r.from).slice(0, 10)}_${String(r.to).slice(0, 10)}_${r.bucket}.csv`;\r\n    const a = document.createElement(\"a\");\r\n    a.href = url;\r\n    a.download = name;\r\n    a.click();\r\n    URL.revokeObjectURL(url);\r\n  };\r\n\r\n  // ---- Render ----\r\n  return (\r\n    <Box sx={{ maxWidth: 1100, mx: \"auto\", p: 2 }}>\r\n      <Typography variant=\"h5\" sx={{ mb: 2 }}>\r\n        Reports & Analytics\r\n      </Typography>\r\n\r\n      {/* Filters */}\r\n      <Stack direction=\"row\" spacing={2} useFlexGap flexWrap=\"wrap\" sx={{ mb: 2 }}>\r\n        <TextField type=\"date\" label=\"From\" size=\"small\" value={from} onChange={(",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\Analytics.jsx",
+        "start": 205,
+        "end": 261,
+        "startLoc": {
+          "line": 205,
+          "column": 2,
+          "position": 2621
+        },
+        "endLoc": {
+          "line": 261,
+          "column": 2,
+          "position": 3373
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\Reports.jsx",
+        "start": 58,
+        "end": 63,
+        "startLoc": {
+          "line": 58,
+          "column": 2,
+          "position": 1355
+        },
+        "endLoc": {
+          "line": 63,
+          "column": 2,
+          "position": 1494
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 25,
+      "fragment": " }}>\r\n              {lessonsTotal}\r\n            </Typography>\r\n          </Paper>\r\n        </Grid>\r\n        <Grid item xs={12} sm={4}>\r\n          <Paper variant=\"outlined\" sx={{ p: 2 }}>\r\n            <Typography variant=\"overline\">Approvals (total)</Typography>\r\n            <Typography variant=\"h5\" sx={{ mt: 0.5 }}>\r\n              {approvalsTotal}\r\n            </Typography>\r\n          </Paper>\r\n        </Grid>\r\n        <Grid item xs={12} sm={4}>\r\n          <Paper variant=\"outlined\" sx={{ p: 2 }}>\r\n            <Typography variant=\"overline\">Attendance (avg)</Typography>\r\n            <Typography variant=\"h5\" sx={{ mt: 0.5 }}>\r\n              {attendanceAvgPct == null ? \"N/A\" : `${attendanceAvgPct}%`}\r\n            </Typography>\r\n          </Paper>\r\n        </Grid>\r\n      </Grid>\r\n\r\n      {/* Stats row */}\r\n      <Grid container spacing={2",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\Analytics.jsx",
+        "start": 380,
+        "end": 404,
+        "startLoc": {
+          "line": 380,
+          "column": 4,
+          "position": 4698
+        },
+        "endLoc": {
+          "line": 404,
+          "column": 2,
+          "position": 4991
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\Analytics.jsx",
+        "start": 376,
+        "end": 393,
+        "startLoc": {
+          "line": 376,
+          "column": 2,
+          "position": 4610
+        },
+        "endLoc": {
+          "line": 393,
+          "column": 3,
+          "position": 4849
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 35,
+      "fragment": ": 2 }}>\r\n        <Grid item xs={12} sm={4}>\r\n          <Paper variant=\"outlined\" sx={{ p: 2 }}>\r\n            <Typography variant=\"overline\">Avg Rating</Typography>\r\n            <Typography variant=\"h5\" sx={{ mt: 0.5 }}>\r\n              {ratingAvg == null ? \"N/A\" : `${ratingAvg} / 5`}\r\n            </Typography>\r\n            <Typography variant=\"caption\" color=\"text.secondary\">\r\n              {ratingCount} feedbacks\r\n            </Typography>\r\n          </Paper>\r\n        </Grid>\r\n        <Grid item xs={12} sm={4}>\r\n          <Paper variant=\"outlined\" sx={{ p: 2 }}>\r\n            <Typography variant=\"overline\">Rating Std Dev</Typography>\r\n            <Typography variant=\"h5\" sx={{ mt: 0.5 }}>\r\n              {ratingStd == null ? \"N/A\" : ratingStd}\r\n            </Typography>\r\n          </Paper>\r\n        </Grid>\r\n        <Grid item xs={12} sm={4}>\r\n          <Paper variant=\"outlined\" sx={{ p: 2 }}>\r\n            <Typography variant=\"overline\">Attendance Std Dev</Typography>\r\n            <Typography variant=\"h5\" sx={{ mt: 0.5 }}>\r\n              {attStdPct == null ? \"N/A\" : `${attStdPct}%`}\r\n            </Typography>\r\n            <Typography variant=\"caption\" color=\"text.secondary\">\r\n              {attCount} completed lessons\r\n            </Typography>\r\n          </Paper>\r\n        </Grid>\r\n      </Grid>\r\n\r\n      {/* Time-series with Brush (zoom) */}\r\n      <Paper variant=\"outlined\" sx={{",
+      "tokens": 0,
+      "firstFile": {
+        "name": "client\\src\\pages\\Analytics.jsx",
+        "start": 404,
+        "end": 438,
+        "startLoc": {
+          "line": 404,
+          "column": 4,
+          "position": 4999
+        },
+        "endLoc": {
+          "line": 438,
+          "column": 2,
+          "position": 5479
+        }
+      },
+      "secondFile": {
+        "name": "client\\src\\pages\\Analytics.jsx",
+        "start": 376,
+        "end": 393,
+        "startLoc": {
+          "line": 376,
+          "column": 4,
+          "position": 4607
+        },
+        "endLoc": {
+          "line": 393,
+          "column": 3,
+          "position": 4849
+        }
+      }
+    }
+  ],
+  "filename": "C:\\Users\\win10\\AppData\\Local\\npm-cache\\_npx\\652ead47bf63fe99\\node_modules\\@jscpd\\html-reporter\\dist\\templates\\main.pug"
+}

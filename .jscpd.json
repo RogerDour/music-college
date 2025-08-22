@@ -1,0 +1,16 @@
+﻿{
+  "path": ["client/src", "server"],
+  "ignore": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/.next/**",
+    "**/__tests__/**",
+    "**/tests/**",
+    "**/coverage/**",
+    "**/.vscode/**"
+  ],
+  "minLines": 20,
+  "reporters": ["html","console"],
+  "output": "dup-report",
+  "format": ["javascript","jsx","typescript"]
+}
