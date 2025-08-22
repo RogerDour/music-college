@@ -1,366 +1,282 @@
-# 🎵 Music College Platform (MVP in 30 Days)
+```markdown
+# 🎵 Music College Platform
 
-A full-stack project to manage a small online music college. Built with **React**, **Node.js**, and **MongoDB**. This is part of my technical software engineering graduation project.
+A **full-stack MVP** for managing a small online music college — built with **React (Vite + MUI + Router + i18n)** and **Node.js (Express + MongoDB + JWT + Nodemailer)**.  
+Supports **students, teachers, and admins** with role-based dashboards, scheduling algorithms (Greedy + Backtracking), lesson management, and multilingual UI.  
+This project was my **technical software engineering graduation project**, iteratively delivered over ~3 months.
 
----
-
-## 🔧 Project Structure
-
----
-
-## 📅 Learning Log
-
-Daily progress updates are included below ⬇️
+[![Stack](https://img.shields.io/badge/Stack-React%2C%20Node.js%2C%20MongoDB-blue)]()  
+[![License](https://img.shields.io/badge/license-MIT-green.svg)]()
 
 ---
 
-## 📅 Day 1 – Login Page
+## ⚡ TL;DR (Recruiters / Professors)
 
-This is a simple and stylish **Login Page** built using **HTML** and **CSS**. It’s part of my first day learning front-end web development after watching two tutorial videos.
-
----
-
-## ✨ Features
-
-- Clean and modern UI
-- Blurred background with transparent login box
-- Form fields for username and password
-- "Remember me" checkbox
-- "Forgot password" and registration links
-- Responsive layout with flexbox
+- **Full-stack MVP**: Role-based dashboards for students, teachers, and admins.
+- **Scheduling engine**: Greedy first, Backtracking fallback, recurring lessons, configurable buffers.
+- **Core features**: Auth (JWT), password reset via email, availability/holidays, lessons CRUD, requests, tasks, submissions, materials, chat, notifications, analytics.
+- **Stack**: React + Vite + MUI + Router + i18n; Node.js + Express + MongoDB + JWT; Nodemailer; optional Google OAuth; Jest tests.
+- **Timeline**: Planned as a 30-day roadmap, actually shipped iteratively over ~3 months while learning.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Live Demo & Quick Links
 
-- HTML5
-- CSS3 (with `backdrop-filter` and flexbox)
-
----
-
-## ▶️ How to Run It
-
-1. Download or clone the repository.
-2. Make sure `style.css` and `login2.png` are in the same folder as your HTML file.
-3. Open `index.html` in any web browser.
+- 🔗 **Live Demo**: _Coming soon_
+- 📂 **Repo**: [github.com/RogerDour/music-college](https://github.com/RogerDour/music-college)
+- 📖 **Docs**: _(TBD)_
 
 ---
 
-## 📚 What I Learned
+## ✨ Features by Role
 
-- Creating a form layout with HTML
-- Styling input boxes and buttons with CSS
-- Using `flexbox` to center elements
-- Applying transparent backgrounds and blur effects with `backdrop-filter`
-- Handling links and hover effects
+### 👨‍🎓 Student
 
----
+- View dashboard with schedule & tasks
+- Request lessons (auto-suggest via scheduling engine)
+- Upload submissions, download course materials
+- Receive notifications and chat with teachers
 
-## 🚀 What's Next?
+### 👨‍🏫 Teacher
 
-- Add JavaScript for basic form validation
-- Make the login page responsive on smaller screens
-- Explore connecting it to a backend in the future
+- Manage availability & holidays
+- Approve/reject lesson requests
+- Upload course materials and tasks
+- View student progress and submissions
 
----
+### 👩‍💼 Admin
 
-## 📁 Folder Structure
-
----
-
-## 📅 Day 2 – JavaScript Basics & DOM
-
-### ✅ What I Did
-
-- Learned JavaScript syntax: variables, functions, arrays, and objects
-- Connected my login form to JavaScript
-- Captured user input using the DOM
-- Built a simple login logic with hardcoded credentials
-- Used `event.preventDefault()` to control form behavior
-
-### 💻 Code Features
-
-- `form.addEventListener('submit', handler)`
-- `input.value` to read form data
-- Conditional logic to simulate login
-- Alert on success/failure
-
-### 🔍 What Was Tricky
-
-- Understanding how form events work
-- Remembering to select elements with `querySelector` and `getElementById`
-- Using `.value` instead of `.innerText`
-
-### 📈 Improvements for Later
-
-- Add form validation (e.g., empty fields)
-- Style error messages dynamically
-- Replace fake login with real backend auth
-
-### 📸 Screenshot
-
-![Login Screenshot](./screenshots/screenshotday2.png)
+- Manage users, courses, and lessons (CRUD)
+- Assign roles (student/teacher)
+- Oversee scheduling conflicts & approvals
+- Access analytics dashboard
 
 ---
 
-## 📅 Day 3 – JavaScript Fundamentals (Practice Exercises)
+## 🖼️ Screenshots
 
-> 📁 Practice code located in: [`js-practice/day3-basics.html`](./js-practice/day3-basics.html)
+> (Placeholders — will be added later)
 
-### ✅ What I Did
-
-- Practiced JavaScript basics in a separate file
-- Declared variables and logged output to the console
-- Wrote functions and used return values
-- Created and looped through an array of instrument names
-- Defined a `student` object and accessed its properties
-- Linked `script.js` to `index.html` and added a basic interactive button
-
-### 💻 Code Features
-
-- `console.log()` for debugging and output
-- `function multiply(a, b)` to perform basic math
-- `for` loop to iterate through arrays
-- Object creation using `{ key: value }` syntax
-- `addEventListener` for button click handling
-- Simple DOM manipulation: `document.body.style.backgroundColor`
-
-### 🔍 What Was Tricky
-
-- Remembering syntax for loops and functions
-- Understanding how and when to use `const` vs `let`
-- Connecting a script file properly to HTML
-
-### 📈 Improvements for Later
-
-- Use these JavaScript fundamentals to enhance the login page
-- Add form validation and input feedback
-- Create dynamic UI updates (e.g., error messages, loading states)
+- Login & Signup
+- Role-based dashboards
+- Suggest Lesson flow
+- Chat & Notifications
 
 ---
 
-## 📅 Day 4 – DOM & Event Handling (Practice)
+## 🏗️ Architecture
 
-> 📁 Practice code located in: [`js-practice/day4-dom.html`](./js-practice/day4-dom.html)
+**Repo layout:**
+```
 
-### ✅ What I Did
+client/ → React (Vite, MUI, Router, i18n)
+server/ → Node.js + Express + MongoDB
 
-- Explored DOM manipulation in more depth
-- Used JavaScript to dynamically update content
-- Added multiple event listeners to buttons and inputs
-- Practiced changing styles and toggling visibility
+```
 
-### 💻 Code Features
+**Diagram:**
+```
 
-- `getElementById`, `querySelector`, and `innerText`
-- Multiple `addEventListener` calls for different events
-- Changing styles with `.style` and classList
-- Showing/hiding elements with `display` or `visibility`
+\[ React (client) ] ⇄ \[ Express API (server) ] ⇄ \[ MongoDB ]
+\| | |
+MUI, i18n Auth, Scheduling Data persistence
 
-### 🔍 What Was Tricky
-
-- Making sure events triggered in the right order
-- Understanding event propagation and scope
-- Debugging JavaScript without console errors
-
-### 📈 Improvements for Later
-
-- Use DOM skills for client-side form validation
-- Animate transitions and interactions
-- Implement keyboard event handling
+````
 
 ---
 
-## 📅 Day 5 – Project Skeleton & GitHub Workflow
+## 📅 Scheduling Engine
 
-### ✅ What I Did
+- **Greedy algorithm**: picks the earliest mutual slot.
+- **Backtracking fallback**: explores alternative slots if conflicts exist.
+- **Buffer**: configurable padding before/after lessons.
+- **Recurring lessons**: supports weekly repetition rules.
 
-- Restructured the project into `client/` and `server/` folders
-- Moved all existing frontend files into `client/`
-- Created `.gitignore` with common ignore rules
-- Prepared for full-stack development with React and Node
-- Updated file paths in HTML and organized codebase
-
-### 💻 Code Features
-
-- Updated paths in `index.html`:
-  ```html
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js"></script>
-  ```
+This ensures fast suggestions for most cases (Greedy) while still handling edge conflicts (Backtracking).
 
 ---
 
-## 📅 Day 6 – Intro to React (Components, JSX, and useState)
+## 🛠️ Getting Started
 
-### ✅ What I Did
+### Prerequisites
+- Node.js ≥ 18
+- MongoDB (local or Atlas)
+- Git
 
-- Set up a React project using Vite inside the `/client` folder
-- Removed default boilerplate and created a clean starting point
-- Created a reusable `WelcomeBanner` component that uses props
-- Used the `useState` hook to implement a basic interactive counter
+### Windows (PowerShell)
 
-### 💻 Code Features
+```powershell
+git clone https://github.com/RogerDour/music-college.git
+cd music-college
 
-- Functional components using JSX
-- Props to pass dynamic data into components
-- `useState` for local component state management
-- A simple button that increments a click counter
+# install deps
+cd client; npm install
+cd ../server; npm install
 
-### 📸 Screenshot
+# run client
+cd ../client; npm run dev
+# run server
+cd ../server; npm run dev
+````
 
-![Day 6 Screenshot](./screenshots/day6-react-welcome-banner.png)
+### macOS / Linux (bash/zsh)
 
-### 🧠 What I Learned
+```bash
+git clone https://github.com/RogerDour/music-college.git
+cd music-college
 
-- JSX syntax and how it differs from HTML
-- How to build and use components in React
-- The difference between props and state
-- Basic user interaction handling in React
+cd client && npm install
+cd ../server && npm install
 
-### 🔍 Reflections
-
-React feels more structured than plain JavaScript. Building UI as components makes the code easier to understand and reuse. I'm now comfortable with props and state and ready to move into routing and multi-page structure tomorrow.
-
----
-
-## 📅 Day 7 – Routing & Pages with React Router
-
-### ✅ What I Did
-
-- Installed and configured `react-router-dom`
-- Created 4 route-based pages: Home, Login, Signup, Dashboard
-- Built a navigation bar (`NavBar`) using `<Link>` components
-- Centralized layout and styling using `index.css`
-
-### 💻 Code Features
-
-- Client-side routing with `<Routes>` and `<Route>`
-- Fixed navigation bar using CSS
-- Page content centered with a reusable `.page` class
-- Clean file structure with `components/` and `pages/`
-
-### 📚 What I Learned
-
-- How React Router v6 handles routing without full page reloads
-- The role of `<BrowserRouter>`, `<Link>`, and `<Route>`
-- How to structure multi-page apps using component folders
-- Best practices for layout using global CSS instead of inline styles
-
-### 📸 Screenshot
-
-![Day 7 Screenshot](./screenshots/day7-routing-navigation.png)
+npm --prefix client run dev
+npm --prefix server run dev
+```
 
 ---
 
-## 📅 Day 8 – Forms & State Management
+### `.env` Samples
 
-### ✅ What I Did
+**server/.env**
 
-- Built working `Signup` and `Login` forms using React
-- Used `useState` to manage multiple input fields
-- Handled form submissions with `onSubmit`
-- Added basic validation for empty fields
-- Styled the forms using global CSS for a clean layout
+```env
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/music_college
+JWT_SECRET=supersecretkey
+EMAIL_USER=you@example.com
+EMAIL_PASS=yourpassword
+GOOGLE_CLIENT_ID=...
+GOOGLE_CLIENT_SECRET=...
+```
 
-### 💻 Code Features
+**client/.env**
 
-- Controlled inputs using `value` and `onChange`
-- Shared `handleChange` for multiple fields via `name` attributes
-- Reusable `.form` class in `index.css` for styling
-- Simple form reset after submit
-
-### 📚 What I Learned
-
-- How to use `useState` to manage form state in React
-- The concept of controlled components
-- Event handling and basic input validation
-- Importance of global CSS classes for consistency
-
-### 📸 Screenshot
-
-![Day 8 Screenshot](./screenshots/day8-forms.png)
+```env
+VITE_API_URL=http://localhost:5000/api
+VITE_DEFAULT_LANG=en
+```
 
 ---
 
-## 📅 Day 9 – Material UI + Multilingual UI (i18n)
+## 📜 NPM Scripts
 
-### ✅ What I Did
+### Client
 
-- Installed and configured **Material UI** (`@mui/material`)
-- Converted `Signup` and `Login` forms to use MUI components (`TextField`, `Button`, etc.)
-- Added multilingual support using `react-i18next` and `i18next-browser-languagedetector`
-- Created a language toggle (English / Hebrew) in both forms
+| Script            | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start Vite dev server    |
+| `npm run build`   | Build for production     |
+| `npm run preview` | Preview production build |
 
-### 💻 Code Features
+### Server
 
-- Responsive UI with consistent spacing and fonts via Material UI
-- Controlled forms with translated labels
-- Language switching at runtime with `i18n.changeLanguage()`
-- Centralized translation strings in `i18n.js`
+| Script        | Description                |
+| ------------- | -------------------------- |
+| `npm run dev` | Start dev server (nodemon) |
+| `npm start`   | Start production server    |
+| `npm test`    | Run Jest tests             |
 
-### 📚 What I Learned
+**One-command dev** (optional, root):
 
-- How to use Material UI’s `Container`, `Typography`, and `TextField` for layout and accessibility
-- How to set up `i18next` for dynamic language translation
-- How to combine internationalization and design libraries in React
-
-### 📸 Screenshot
-
-![Day 9 Screenshot](./screenshots/day9-material-ui-i18n.png)
-
----
-
-## 📅 Day 10 – Project Frontend Layout
-
-### ✅ What I Did
-
-- Planned and implemented a modular layout system using React and Material UI
-- Created three reusable components: Header, Sidebar, and Layout
-- Used Material UI’s Grid system to structure a responsive dashboard layout
-- Made the sidebar dynamic based on user roles: student, teacher, and admin
-- Wrapped the Dashboard page with the new Layout component
-
-### 💻 Code Features
-
-- Header.jsx: Top bar with app name (and space for future language toggle or user menu)
-- Sidebar.jsx: Navigation menu that adjusts links based on the role prop
-- Layout.jsx: Wrapper that includes Header, Sidebar, and main content area
-- Responsive grid: sidebar and content adapt on small (xs) and medium (md) screens
-- Clean separation of layout logic using components/ directory
-
-### 📚 What I Learned
-
-- How to architect reusable layout components in React
-- How to use Material UI's Grid for responsive design
-- How to dynamically render navigation based on user roles
-- Importance of separating layout from page content for maintainability
+```bash
+npm install -g concurrently
+concurrently "npm --prefix client run dev" "npm --prefix server run dev"
+```
 
 ---
 
-## 📅 Day 11 – API Integration Prep with Axios
+## 🔌 API Overview
 
-### ✅ What I Did
-
-- Installed and configured Axios for handling API requests in the frontend
-- Created a reusable Axios instance with a base URL (https://jsonplaceholder.typicode.com)
-- Built a new page Users.jsx to fetch mock user data using axios.get("/users")
-- Managed different request states: loading, success, and error
-- Wrapped the users list inside the existing Layout component with the admin role
-
-### 💻 Code Features
-
-- Axios instance created in utils/axios.js for centralized config
-- useEffect used to trigger API request on page load
-- useState used for managing users, loading, and error
-- Displayed a list of users with proper conditional rendering
-- Clear loading and error messages shown based on request state
-
-### 📚 What I Learned
-
-- How to use Axios for HTTP requests in React
-- How to handle asynchronous data with useEffect
-- Best practices for managing loading and error states
-- How to use mock APIs (JSONPlaceholder) for testing frontend logic before connecting to a real backend
+- `POST /api/auth/signup` — Create account
+- `POST /api/auth/login` — Login (JWT)
+- `POST /api/auth/forgot` — Send password reset email
+- `GET /api/lessons/suggest` — Suggest lesson (Greedy/Backtracking)
+- `POST /api/lessons` — Create lesson
+- `PATCH /api/lessons/:id` — Update lesson
+- `DELETE /api/lessons/:id` — Delete lesson
+- `GET /api/courses/:id/materials` — Fetch course materials
+- `POST /api/chat/:room` — Send message
 
 ---
+
+## 🧪 Testing
+
+Server tests with Jest:
+
+```bash
+cd server
+npm test
+```
+
+Client tests _(if present)_:
+
+```bash
+cd client
+npm test
+```
+
+---
+
+## ☁️ Deployment
+
+### Client
+
+- Deploy to **Vercel** or **Netlify**
+- Set `VITE_API_URL` in environment variables
+
+### Server
+
+- Deploy to **Render** or **Railway**
+- Set all vars from `.env` (PORT, MONGO_URI, JWT_SECRET, EMAIL_USER, EMAIL_PASS, Google OAuth keys if used)
+
+---
+
+## 📊 Roadmap vs Actual
+
+**Planned: 30-day roadmap**
+
+- Phase 1: Setup & fundamentals (Days 1–5)
+- Phase 2: React basics (6–11)
+- Phase 3: Backend + auth (12–17)
+- Phase 4: Scheduling + features (18–25)
+- Phase 5: Testing & polish (26–28)
+- Phase 6: Deployment + docs (29–30)
+
+**Actual: \~3 months delivery**
+
+- **May 28**: Initial repo + client/server skeleton
+- **Jun 1–Jun 30**: React UI, basic auth, Mongo setup
+- **Jul**: Role-based dashboards, scheduling engine (Greedy + Backtracking), lessons CRUD
+- **Aug**: Notifications, chat, analytics, i18n polish, tests, docs
+
+---
+
+## 📝 Changelog (Selected)
+
+- **Aug 6** — Final polish, docs, analytics, notifications
+- **Jul 15** — Scheduling engine (Greedy + Backtracking) integrated
+- **Jun 10** — JWT auth + role-based dashboards
+- **May 28** — Repo initialized (client + server)
+
+---
+
+## 📄 License & Credits
+
+- Licensed under **MIT**.
+- Built as a graduation project at ORT Braude College / Open University.
+- Stack inspiration from MERN boilerplates and scheduling algorithm references.
+
+---
+
+## 🎬 Demo Script (3–5 min)
+
+1. **Login** as student, teacher, and admin — show role-based dashboards.
+2. **Student**: request a lesson → see “Suggest Lesson” auto-fill.
+3. **Teacher**: approve request, upload material, assign task.
+4. **Student**: upload submission, check notifications, switch language (EN/HE).
+5. **Admin**: view analytics dashboard, manage users/courses.
+
+---
+
+```
+
+```
